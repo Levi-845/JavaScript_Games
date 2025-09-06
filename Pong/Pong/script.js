@@ -74,7 +74,7 @@ function drawPaddles(){
 };
 
 function createBall(){
-    ballSpeed = 2;  // 👈 ab thodi fast chalegi
+    ballSpeed = 2;
     if(Math.round(Math.random()) == 1){
         ballXDirection =  1; 
     } else {
